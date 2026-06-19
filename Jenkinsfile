@@ -26,6 +26,7 @@ pipeline {
 
                 bat '''
                 copy dags\\crypto_dag.py "C:\\Users\\Amshu\\OneDrive\\Desktop\\airflow_project\\dags"
+				copy dags\\crypto_dag1.py "C:\\Users\\Amshu\\OneDrive\\Desktop\\airflow_project\\dags"
                 '''
 
             }
