@@ -7,9 +7,7 @@ pipeline {
         stage('Checkout') {
 
             steps {
-
                 checkout scm
-
             }
 
         }
@@ -17,9 +15,7 @@ pipeline {
         stage('Verify Files') {
 
             steps {
-
                 bat 'dir'
-
             }
 
         }
@@ -29,9 +25,7 @@ pipeline {
             steps {
 
                 bat '''
-
-                copy dags\\crypto_dag.py C:\Users\Amshu\OneDrive\Desktop\airflow_project\dags
-
+                copy dags\\crypto_dag.py "C:\\Users\\Amshu\\OneDrive\\Desktop\\airflow_project\\dags"
                 '''
 
             }
