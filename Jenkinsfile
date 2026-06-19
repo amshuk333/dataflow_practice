@@ -30,7 +30,7 @@ pipeline {
 
                 bat '''
 
-                copy dags\\crypto_dag.py C:\\Users\\ADMIN\\Desktop\\airflow-project\\dags
+                copy dags\\crypto_dag.py C:\\Users\\Amshu\\Desktop\\airflow-project\\dags
 
                 '''
 
